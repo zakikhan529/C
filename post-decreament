@@ -1,0 +1,16 @@
+//post-decreament operator
+#include <stdio.h>
+
+int main() {
+    int i=4;
+    printf("value of i is %d \n",i);
+    i--;
+    printf("value of i is %d \n",i);
+    printf("*********\n");
+    int x;
+    x=i--;
+    printf("value of i is %d \n",i);
+    printf("value of x is %d \n",x);
+    
+    return 0;
+}
