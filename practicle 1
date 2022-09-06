@@ -1,0 +1,14 @@
+// write 'c' programing using constant , variableand archmetic op 
+//auther khan zaki
+//date 06/09/22
+int main(){
+#include <stdio.h>
+float a;
+int r;
+const float pi=3.14;
+printf("radius of the circle\n");
+scanf("%f",&r);
+a=pi*r*r;
+printf("area is %f",a);
+    return 0;
+}
