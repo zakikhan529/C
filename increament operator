@@ -1,0 +1,10 @@
+// increment operator
+#include <stdio.h>
+
+int main() {
+int i=4  ;  
+printf("value of before increment i is %d \n",i);
+i++;
+printf("value of after increament i is %d \n",i);
+    return 0;
+}
